@@ -25,7 +25,7 @@ GROUP BY
  ---QUERY 3
  SELECT
     TotalCases.total_cases,
-	TotalDeaths.total_deaths
+    TotalDeaths.total_deaths
  FROM
     TotalCases INNER JOIN TotalDeaths ON TotalCases.country = TotalDeaths.country
 ORDER BY
