@@ -26,7 +26,7 @@ print("\nВивести країну та % зареєстрованих у ні
 query2 = """
 SELECT
     TotalCases.country,
-	round((TotalCases.total_cases + 0.0) * 100 / t.total, 2) as persent
+    round((TotalCases.total_cases + 0.0) * 100 / t.total, 2) as persent
 FROM
     TotalCases,
     (SELECT
