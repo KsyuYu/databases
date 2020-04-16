@@ -4,7 +4,7 @@ CREATE TABLE TotalCases (
     ,new_cases INT NOT NULL
     );
 
-CREATE TABLE TotalDeath (
+CREATE TABLE TotalDeaths (
     country VARCHAR(30) NOT NULL PRIMARY KEY
     ,total_deaths INT NOT NULL
     ,new_deaths INT NOT NULL
