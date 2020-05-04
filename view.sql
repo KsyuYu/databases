@@ -10,4 +10,4 @@ CREATE OR REPLACE VIEW Total AS
         Countries JOIN Cases
         ON Countries.total_cases = Cases.total_cases
         JOIN Disease
-        ON Disease.disease = Countries.disease;
+        ON Disease.data = Cases.data;
